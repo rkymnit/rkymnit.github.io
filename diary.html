@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Digital Diary - Diary</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Digital Diary</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="diary.html">Diary</a></li>
+        <li><a href="about.html">About Us</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+    <h2>My Diary</h2>
+
+    <div class="form-box">
+        <form action="#" method="post">
+            <label for="entrydate">Entry Date</label>
+            <input type="date" id="entrydate" name="entrydate">
+
+            <label for="title">Title / Mood</label>
+            <input type="text" id="title" name="title">
+
+            <label for="content">Diary Entry</label>
+            <textarea id="content" name="content" rows="6"></textarea>
+
+            <input type="submit" value="Save Entry">
+            <input type="reset" value="Clear">
+        </form>
+    </div>
+
+    <h3>Sample Previous Entries</h3>
+    <table class="table-style">
+        <tr>
+            <th>Date</th>
+            <th>Title</th>
+            <th>Short Note</th>
+        </tr>
+        <tr>
+            <td>2025-11-01</td>
+            <td>First day with Digital Diary</td>
+            <td>Started using this online diary to write my daily experiences.</td>
+        </tr>
+        <tr>
+            <td>2025-11-02</td>
+            <td>Project Work</td>
+            <td>Worked on O Level project and designed new web pages.</td>
+        </tr>
+<tr>
+            <td>2026-02-01</td>
+            <td>Dissertaion Updates</td>
+            <td>Worked on dissertation for completeing my M.Tech degree.</td>
+        </tr>
+
+    </table>
+</div>
+
+<footer>
+    &copy; 2025 Digital Diary. All rights reserved.
+</footer>
+
+</body>
+</html>
